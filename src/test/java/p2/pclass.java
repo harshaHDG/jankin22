@@ -1,5 +1,12 @@
 package p2;
 
-public class pclass {
+import org.testng.annotations.Test;
 
+public class pclass {
+@Test
+public void sample()
+{
+	System.out.println("org");
+	System.out.println(" ---");
+}
 }
